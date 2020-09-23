@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bin2Dec</h1>
+
+   <form action="">
+  
+        <input type="text" id="binaryInput" placeholder="Bin Number here!" onchange="convertBinToDec()">
+        <input type="text" id="decimalOutput" readonly   >
+        
+   </form>
+
+    <h1>Dec2Bin</h1>
+   <form action="">
+    
+        <input type="text" id="decimalInput" placeholder="Dec Number here!" onchange="convertDecToBin()">
+        <input type="text" id="binaryOutput" readonly>
+        
+   </form>
+
+    <button onclick="clearInput()">Reset</button>
+<script src="/scripts.js"></script>
+</body>
+</html>
